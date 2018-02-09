@@ -12,7 +12,7 @@ package yyl.utils.gson;
  * author: yangxiaoling
  * Create_Date:   2018/2/9 下午4:08
  * Package_NAME  yyl.utils.gson
- * Describe:
+ * Describe: 使用postBody时候Json的统一的封装类,可变
  */
 
 public class Data<T> {

@@ -12,7 +12,7 @@ package yyl.utils.gson;
  * author: yangxiaoling
  * Create_Date:   2018/2/9 下午3:05
  * Package_NAME  yyl.utils
- * Describe:
+ * Describe: 返回类型的数据模型
  */
 
 public class Result<T> {
@@ -25,10 +25,6 @@ public class Result<T> {
         this.code = code;
         this.message = message;
         this.model = model;
-    }
-
-    public static <T> Result<T> success(T modle){
-        return new Result("","",modle);
     }
 
     public String getCode() {
