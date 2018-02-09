@@ -19,22 +19,7 @@ package yyl.utils;
 import java.math.BigDecimal;
 import java.math.BigInteger;
 
-/**
- * <p>Provides extra functionality for Java Number classes.</p>
- *
- * @author Apache Software Foundation
- * @author <a href="mailto:rand_mcneely@yahoo.com">Rand McNeely</a>
- * @author <a href="mailto:steve.downey@netfolio.com">Steve Downey</a>
- * @author Eric Pugh
- * @author Phil Steitz
- * @since 1.0
- * @version $Id: NumberUtils.java 905636 2010-02-02 14:03:32Z niallp $
- *
- * @deprecated Moved to org.apache.commons.lang.math.
- *             Class will be removed in Commons Lang 3.0.
- */
 public final class NumberUtils {
-    // DEPRECATED CLASS !!!
 
     /**
      * <p><code>NumberUtils</code> instances should NOT be constructed in standard programming.
