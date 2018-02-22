@@ -46,15 +46,4 @@ public class GsonUtils {
         return new Gson().toJson(data);
     }
 
-//    public static void main(String[] args) {
-////       Result<String> result= fromJsonObject(TestData.jsonData,String.class);
-////        System.out.printf( result.getModel() );
-//
-//        TestBean testBean = new TestBean();
-//        testBean.setName("yyl");
-//        testBean.setPwd("123456");
-//        Data data = Data.sendData(testBean);
-//        System.out.printf( toJsonString(data) );
-//    }
-
 }

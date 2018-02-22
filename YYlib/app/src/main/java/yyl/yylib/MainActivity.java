@@ -3,13 +3,13 @@ package yyl.yylib;
 import android.animation.TypeEvaluator;
 import android.animation.ValueAnimator;
 import android.os.Bundle;
-import android.support.v7.app.AppCompatActivity;
+import android.support.v4.app.FragmentActivity;
 import android.util.Log;
 import android.view.ViewGroup;
 import android.view.animation.AccelerateInterpolator;
 import android.widget.TextView;
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends FragmentActivity {
     TextView myText;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -17,8 +17,8 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
          myText = (TextView)findViewById(R.id.mytext);
         myText.setText("Hello World");
-        testOf();
-        margin();
+//        testOf();
+//        margin();
     }
     private void testOf(){
         ValueAnimator animator = ValueAnimator.ofObject(new CharEvaluator(),9,0);
